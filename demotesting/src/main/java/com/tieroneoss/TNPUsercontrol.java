@@ -94,7 +94,7 @@ public class TNPUsercontrol
 		Thread.sleep(7000);
 		driver.findElement(By.xpath("(//input[@type='text'])[8]")).clear();
 		driver.findElement(By.xpath("(//input[@type='text'])[8]")).sendKeys("karunaselenium_copy");
-
+		Thread.sleep(7000);
 		driver.findElement(By.xpath("(//input[@type='text'])[9]")).sendKeys("karunaselenium2_copy");
 		driver.findElement(By.xpath("(//input[@type='text'])[10]")).clear();
 		driver.findElement(By.xpath("(//input[@type='text'])[10]")).sendKeys("copy");
